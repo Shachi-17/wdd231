@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD231 Course Home: About me, My photo, and web certificate courses.">
+  <meta name="author" content="Sharlene Dela Cruz">
+  <title>WDD231 • Course Home</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <!-- GFonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- JScript -->
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/brlogo.png" alt="Site Logo" class="logo">
+    <span class="site-name">Sharlene Dela Cruz</span>
+    <button id="menu" aria-label="Menu">&#9776;</button>
+  </header>
+
+  <nav class="navigation">
+    <a href="index.html" class="active">Home</a>
+    <a href="chamber/index.html">Chamber</a>
+    <a href="final/index.html">Final Project</a>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Sharlene Dela Cruz. I am passionate about web development and excited to grow my skills
+        through this course.
+      </p>
+    </section>
+
+    <section class="photo">
+      <h2>Student Photo</h2>
+      <img src="images/studentpfp.png" alt="Student portrait" width="320" height="320">
+    </section>
+
+    <section class="courses">
+      <h2>Web Certificate Courses</h2>
+      <div class="filter-buttons">
+        <button id="all">All</button>
+        <button id="cse">CSE</button>
+        <button id="wdd">WDD</button>
+      </div>
+      <div id="course-list"></div>
+      <p id="credits"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="socials">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">
+        <img src="images/linkedin.png" alt="LinkedIn" class="social-icon">
+      </a>
+      <a href="https://github.com/Shachi-17" target="_PROFILE">
+        <img src="images/github.png" alt="GitHub" class="social-icon">
+      </a>
+    </div>
+    <p>&copy; <span id="year"></span> • Sharlene Dela Cruz • Philippines</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+
+</html>
